@@ -3,7 +3,8 @@ pipeline {
   stages {
     stage('test') {
       steps {
-        sh 'ls pwd date'
+        sh '''echo "hyarel"
+'''
       }
     }
 
